@@ -1,0 +1,13 @@
+// ==========================================
+// Author  : If you like content like this, you can join this channel. 📲
+// Contact : https://t.me/jieshuo_materials
+// ==========================================
+
+{
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/api/$1"
+    }
+  ]
+}
