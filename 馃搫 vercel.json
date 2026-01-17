@@ -1,12 +1,8 @@
 {
   "rewrites": [
     {
-      "source": "/meta",
-      "destination": "/api/index?action=meta"
-    },
-    {
-      "source": "/search",
-      "destination": "/api/index?action=search"
+      "source": "/(.*)",
+      "destination": "/api/$1"
     }
   ]
 }
